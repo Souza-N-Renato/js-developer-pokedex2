@@ -1,0 +1,394 @@
+
+
+main section.perfil nav.topo a{
+    color: #fff;
+}
+
+
+
+main section.perfil nav.topo {
+
+    display: flex;
+    margin: 1.5rem;
+    color: #fff;
+    justify-content: space-between;
+
+}
+
+label{ cursor: pointer;}
+#coracao { display: none;}
+#coracao:checked+label>svg {
+    animation: preencher;
+    animation-fill-mode: forwards;
+
+}
+
+
+main section.perfil{
+    position:fixed;
+    width:100%;
+    height:100%;
+   
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+
+
+h2 {
+    font-size: 1.25rem ;
+    color: darkslategray;
+}    
+
+
+main section.perfil.normal,
+main section.perfil  .basicInfos  .name-type  .types  li.normal {
+    background-color: #a6a877;
+    
+}
+
+
+main section.perfil.grass,
+main section.perfil  .basicInfos  .name-type  .types  li.grass {
+   /*background-color: rgb(70, 211, 5);*/
+   background-color: #42c2a4;
+
+}
+
+
+main section.perfil.fire,
+main section.perfil  .basicInfos  .name-type  .types  li.fire {
+    background-color: #fd5e5e;
+    
+}
+
+
+main section.perfil.water,
+main section.perfil  .basicInfos  .name-type  .types  li.water {
+    background-color: #76BDFE;
+    
+}
+
+
+main section.perfil.electric,
+main section.perfil  .basicInfos  .name-type  .types  li.electric {
+    background-color: #ffd86f;
+    
+}
+
+
+main section.perfil.ice,
+main section.perfil > .basicInfos  .name-type  .types  li.ice {
+    background-color: #98d5d7;
+    
+}
+
+
+main section.perfil.ground,
+main section.perfil  .basicInfos  .name-type  .types  li.ground {
+    background-color: #dfbf69;
+    
+}
+
+
+main section.perfil.flying,
+main section.perfil  .basicInfos  .name-type  .types  li.flying {
+    background-color: #a98ff0;
+    
+}
+
+
+main section.perfil.poison,
+main section.perfil  .basicInfos  .name-type  .types  li.poison {
+    background-color: #a040a0;
+    
+}
+
+
+main section.perfil.fighting,
+main section.perfil  .basicInfos  .name-type  .types  li.fighting {
+    background-color: #bf3029;
+    
+}
+
+
+main section.perfil.psychic,
+main section.perfil  .basicInfos  .name-type  .types  li.psychic {
+    background-color: #f65687;
+}
+
+
+main section.perfil.dark,
+main section.perfil  .basicInfos  .name-type  .types  li.dark {
+    background-color: #725847;  
+}
+
+
+main section.perfil.rock,
+main section.perfil  .basicInfos  .name-type  .types  li.rock {
+    background-color: #b8a137;
+}
+
+
+main section.perfil.bug,
+main section.perfil  .basicInfos  .name-type  .types  li.bug {
+    background-color: #a8b720;
+}
+
+
+main section.perfil.ghost,
+main section.perfil  .basicInfos  .name-type  .types  li.ghost {
+    background-color: #6e5896;
+}
+
+
+main section.perfil.steel,
+main section.perfil  .basicInfos  .name-type  .types  li.steel {
+    background-color: #b9b7cf;  
+}
+
+
+main section.perfil.dragon,
+main section.perfil  .basicInfos  .name-type  .types  li.dragon {
+    background-color: #6f38f6;
+}
+
+
+main section.perfil.fairy,
+main section.perfil  .basicInfos  .name-type  .types  li.fairy {
+    background-color: #f9aec7;
+    
+}
+
+
+
+main section.perfil  .basicInfos  .name-type  h1 {
+    text-align: left;
+
+    margin: 30px 10px 15px 30px;
+    color: white;
+    
+
+}
+
+
+
+main section.perfil  .basicInfos{
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    font-weight: bold;
+       
+}
+
+main section.perfil  .basicInfos  img {
+
+    align-self: center;
+    position: absolute;
+    top: 160px;
+    left: 20%;
+    width: 250px;
+    z-index: 2;
+}
+
+main section.perfil div  img.waterMark {
+    position: absolute;
+    width: 13rem;
+    left: 60%;
+    top: 20%;
+    opacity: 30%;
+    filter: brightness(1.9);
+}
+
+main section.perfil  .detalhes {
+    display: flex;
+    flex-direction: column;
+    background-color: ghostwhite;
+
+    height: 100%;
+    border-radius: 2rem;
+
+    padding: 40px 10px 10px 10px;
+    
+    max-height: 73%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 160px;
+    margin-bottom: 0;
+    
+}
+
+main section.perfil  .pokeStatus .name-type {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+main section.perfil  .basicInfos  .name-type  .types {
+    display: flex;
+    list-style-type: none;
+    
+
+}
+
+main section.perfil  .basicInfos  .name-type  .types  li {
+    color: ghostwhite;
+    margin: 1px;
+    padding: .25rem .5rem;
+
+    font-size: .825rem;
+    border-radius: 1rem;
+    text-align: center;
+    filter: contrast(1.3);
+}
+
+main section.perfil  .basicInfos  .number {
+    color: white;
+
+    text-align: right;
+    font-size: 1rem;
+}
+
+main section.perfil  .detalhes  .pokeStatus  nav  ul {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    padding: 25px 5px 0px 5px;
+    margin: 0;
+    justify-content: space-around;
+}
+
+
+main section.perfil  .detalhes  .pokeStatus  nav  ul li a {
+    color: grey;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: .1s ease;
+}
+
+
+main section.perfil  .detalhes  .pokeStatus  nav  ul li a:hover {
+    color: black;
+    text-decoration: solid;
+    top:-2px;
+    border-bottom:2px solid blue;
+}
+
+
+
+main section.perfil  .detalhes  .pokeStatus  .content{
+    display: none;
+    flex-direction: row;
+    background-color: ghostwhite;
+    margin: 0;
+    text-align: right;
+
+    
+}
+
+progress {
+    background-color: rgb(236, 234, 234);
+    border-radius: 7px; 
+    box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );  
+    height: 5px;
+    margin: 5.5px;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgb(236, 234, 234);
+    border-radius: 7px;
+    height: 5px;
+    
+  }
+progress::-webkit-progress-value {
+    border-radius: 7px;
+    height: 5px;
+  }
+
+
+main section.perfil  .detalhes  .pokeStatus  .content  .coluna1,
+main section.perfil  .detalhes  .pokeStatus  .content  .coluna2{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+}
+
+main section.perfil  .detalhes  .pokeStatus  .content  .coluna1 ul,
+main section.perfil  .detalhes  .pokeStatus  .content  .coluna2 ul{
+    padding: 0;
+    margin: 0;
+}
+
+main section.perfil  .detalhes  .pokeStatus  .content  .coluna1 ul li{
+    color: grey;
+    list-style-type: none;
+    margin: 15px 0px;
+    text-align: left;
+}
+main section.perfil > .detalhes > .pokeStatus  .content  .coluna2 ul li{
+    color: darkslategray;
+    list-style-type: none;
+    margin: 13px 10px 8px 0px;
+    align-items: center;
+}
+main section.perfil  .detalhes  .pokeStatus  .content  .coluna2 ul li.infos{
+    list-style-type: none;
+    margin: 15px 0px;
+    align-items: center;
+}
+
+main section.perfil  .detalhes  .pokeStatus  .content  .moves{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 20px;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    height: 20%;
+    
+}
+
+
+
+main section.perfil  .detalhes  .pokeStatus  .content  .moves  .contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px 5px 5px 0px;
+    width: 100px;
+    height: 50px;
+    padding: 10px 10px;
+    border-radius: 1rem;
+    background-color: rgb(214, 213, 213);
+    
+}
+
+/*main section.perfil  .detalhes  .pokeStatus  .content  .moves  .contents.fire{
+    background-color: #fd5e5e;
+
+}*/
+
+
+
+main section.perfil  .detalhes  .pokeStatus  .content.showContent{
+    display: flex;
+    height: 60%;
+    max-width: 100%;
+    
+}
+
+main section.perfil  .detalhes  .pokeStatus  .content.showGrid  .grid.showGrid{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    margin: 40px 25px;   
+}
+
+
+
+
